@@ -1,0 +1,6 @@
+framework module Pods_iOSMain_release {
+  umbrella header "Pods-iOSMain_release-umbrella.h"
+
+  export *
+  module * { export * }
+}
