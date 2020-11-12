@@ -7,13 +7,18 @@
 
 #import <Foundation/Foundation.h>
 #import "TestViewController.h"
+#import "AppDelegate.h"
 
-typedef NS_ENUM(NSInteger, AiArtsTabType) {
+typedef NS_ENUM(NSInteger, TabType) {
     TabType_Home = 0,
 };
 
-#define AiArtsTabs          @[@"TestViewController"]
+#define Tabs          @[@"TestViewController"]
 
 @interface UIStructHelper : NSObject
-//SYNTHESIZE_ARC_SINGLETON_FOR_CLASS_HEADER(UIStructHelper)
+SYNTHESIZE_ARC_SINGLETON_FOR_CLASS_HEADER(UIStructHelper)
+@property (nonatomic, strong) UITabBarController                                                  *rootController;
+@property (nonatomic, assign) NSInteger                                                           currentIndex;
+@property (nonatomic, strong) NSArray<__kindof UIViewController<TabViewControllerProtocol> *>   *tabBarViewControllers;
+
 @end

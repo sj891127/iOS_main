@@ -19,4 +19,25 @@
     NSLog(@"width====%lf",SCREEN_WIDTH);
 }
 
+#pragma mark - MKTabViewControllerProtocol
+- (NSString *)tabTitle {
+    return @"test";
+}
+
+- (UIImage *)tabImage {
+    return [UIImage imageNamed:@""];
+}
+
+- (UIImage *)tabSelectedImage {
+    return [UIImage imageNamed:@""];
+}
+
+- (NSString *)tabBadge {
+    return nil;
+}
+
+- (UIColor *)tabBadgeColor {
+    return nil;
+}
+
 @end

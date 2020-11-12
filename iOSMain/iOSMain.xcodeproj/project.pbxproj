@@ -11,6 +11,12 @@
 		E5304619255028E60079CF41 /* Pods_iOSMain_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15092ABA8BA584CBD523E7BD /* Pods_iOSMain_dev.framework */; };
 		E530461C255028F80079CF41 /* iOSBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C313C82550114200158205 /* iOSBasic.framework */; };
 		E530461D255028F80079CF41 /* iOSBasic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5C313C82550114200158205 /* iOSBasic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E56D701F255D35640031EB28 /* MainNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D701E255D35640031EB28 /* MainNetworkHelper.m */; };
+		E56D7020255D35640031EB28 /* MainNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D701E255D35640031EB28 /* MainNetworkHelper.m */; };
+		E56D7021255D35640031EB28 /* MainNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D701E255D35640031EB28 /* MainNetworkHelper.m */; };
+		E56D702B255D37E80031EB28 /* MainBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D702A255D37E80031EB28 /* MainBusinessHelper.m */; };
+		E56D702C255D37E80031EB28 /* MainBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D702A255D37E80031EB28 /* MainBusinessHelper.m */; };
+		E56D702D255D37E80031EB28 /* MainBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D702A255D37E80031EB28 /* MainBusinessHelper.m */; };
 		E5C3135C25500D8F00158205 /* Info_pre.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C3135B25500D8F00158205 /* Info_pre.plist */; };
 		E5C3136125500D9800158205 /* Info_release.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C3136025500D9800158205 /* Info_release.plist */; };
 		E5C3136F25500E3300158205 /* UIStructHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C3136B25500E3300158205 /* UIStructHelper.m */; };
@@ -114,6 +120,11 @@
 		683CC3CC4B4F35CD78BD9794 /* Pods-iOSMain_release.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMain_release.debug.xcconfig"; path = "Target Support Files/Pods-iOSMain_release/Pods-iOSMain_release.debug.xcconfig"; sourceTree = "<group>"; };
 		80FD67552E244AF29CCC1417 /* Pods-iOSMain_pre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMain_pre.debug.xcconfig"; path = "Target Support Files/Pods-iOSMain_pre/Pods-iOSMain_pre.debug.xcconfig"; sourceTree = "<group>"; };
 		92E86281742690ED0AFCF58D /* Pods-iOSMain_dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMain_dev.debug.xcconfig"; path = "Target Support Files/Pods-iOSMain_dev/Pods-iOSMain_dev.debug.xcconfig"; sourceTree = "<group>"; };
+		E56D7017255D343F0031EB28 /* NetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkConfig.h; sourceTree = "<group>"; };
+		E56D701D255D35640031EB28 /* MainNetworkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainNetworkHelper.h; sourceTree = "<group>"; };
+		E56D701E255D35640031EB28 /* MainNetworkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainNetworkHelper.m; sourceTree = "<group>"; };
+		E56D7029255D37E80031EB28 /* MainBusinessHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainBusinessHelper.h; sourceTree = "<group>"; };
+		E56D702A255D37E80031EB28 /* MainBusinessHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainBusinessHelper.m; sourceTree = "<group>"; };
 		E5C3135625500D8500158205 /* Info_dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_dev.plist; sourceTree = "<group>"; };
 		E5C3135B25500D8F00158205 /* Info_pre.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_pre.plist; sourceTree = "<group>"; };
 		E5C3136025500D9800158205 /* Info_release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_release.plist; sourceTree = "<group>"; };
@@ -179,6 +190,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E56D7016255D34240031EB28 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E56D7017255D343F0031EB28 /* NetworkConfig.h */,
+				E56D701D255D35640031EB28 /* MainNetworkHelper.h */,
+				E56D701E255D35640031EB28 /* MainNetworkHelper.m */,
+				E56D7029255D37E80031EB28 /* MainBusinessHelper.h */,
+				E56D702A255D37E80031EB28 /* MainBusinessHelper.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		E5C313C42550114000158205 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +233,7 @@
 		E5C5908825500C7A00774474 /* iOSMain */ = {
 			isa = PBXGroup;
 			children = (
+				E56D7016255D34240031EB28 /* Network */,
 				E5C3136D25500E3300158205 /* TestViewController.h */,
 				E5C3136C25500E3300158205 /* TestViewController.m */,
 				E5C3136E25500E3300158205 /* UIStructHelper.h */,
@@ -526,6 +550,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E56D702B255D37E80031EB28 /* MainBusinessHelper.m in Sources */,
+				E56D701F255D35640031EB28 /* MainNetworkHelper.m in Sources */,
 				E5C5909125500C7A00774474 /* ViewController.m in Sources */,
 				E5C5908B25500C7A00774474 /* AppDelegate.m in Sources */,
 				E5C3136F25500E3300158205 /* UIStructHelper.m in Sources */,
@@ -538,6 +564,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E56D702C255D37E80031EB28 /* MainBusinessHelper.m in Sources */,
+				E56D7020255D35640031EB28 /* MainNetworkHelper.m in Sources */,
 				E5C590A525500C8300774474 /* ViewController.m in Sources */,
 				E5C590A625500C8300774474 /* AppDelegate.m in Sources */,
 				E5C3137025500E3300158205 /* UIStructHelper.m in Sources */,
@@ -550,6 +578,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E56D702D255D37E80031EB28 /* MainBusinessHelper.m in Sources */,
+				E56D7021255D35640031EB28 /* MainNetworkHelper.m in Sources */,
 				E5C590B525500C8500774474 /* ViewController.m in Sources */,
 				E5C590B625500C8500774474 /* AppDelegate.m in Sources */,
 				E5C3137125500E3300158205 /* UIStructHelper.m in Sources */,
