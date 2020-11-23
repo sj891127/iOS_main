@@ -13,13 +13,35 @@
 
 @implementation TestViewController
 
++ (void)load{
+    NSLog(@"load");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    NSLog(@"width====%lf",SCREEN_WIDTH);
+    NSLog(@"viewDidLoad");
+//    NSArray *testArr = [[NSArray alloc]initWithObjects:@"1",@"2", nil];
+//    NSMutableArray *testArr = [[NSMutableArray alloc]initWithObjects:@"1",@"2", nil];
+//    NSLog(@"=====%@",testArr[2]);
+//    NSLog(@"success=====");
+//    NSLog(@"====%f",SCREEN_WIDTH);
+    UIButton *testBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [testBtn setFrame:CGRectMake(0, 0, 100, 100)];
+    testBtn.backgroundColor = [UIColor redColor];
+    [testBtn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:testBtn];
 }
 
-#pragma mark - MKTabViewControllerProtocol
+- (void)click{
+    [self.view makeToast:@"test!!"];
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    NSLog(@"willAppear");
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
+}
+
 - (NSString *)tabTitle {
     return @"test";
 }

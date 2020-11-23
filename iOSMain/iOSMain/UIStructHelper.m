@@ -52,7 +52,7 @@ SYNTHESIZE_ARC_SINGLETON_FOR_CLASS(UIStructHelper)
     if (self = [super init]) {
         [self setup];
     }
-    return self;;
+    return self;
 }
 
 - (void)setup {

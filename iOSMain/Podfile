@@ -22,14 +22,16 @@ def shared_pods
 	pod 'ReactiveObjC'
 	pod 'Bugly'
 	pod "Qiniu"
-  	pod 'IQKeyboardManager'
-  	pod 'DZNEmptyDataSet'
-  	pod 'Toast'
-  	pod 'AliyunOSSiOS'
-  	pod 'TZImagePickerController'
-  	pod 'UMCCommon'
-  	pod 'UMCShare/Social/WeChat'
-  	pod 'GTSDK'
+  pod 'IQKeyboardManager'
+  pod 'DZNEmptyDataSet'
+  pod 'Toast'
+  pod 'AliyunOSSiOS'
+  pod 'TZImagePickerController'
+  pod 'UMCCommon'
+  pod 'UMCShare/Social/WeChat'
+  pod 'GTSDK'
+  pod 'CocoaLumberjack' , '3.6.0'
+  pod 'SVProgressHUD' , '2.2.5'
 end
 target 'iOSMain_dev' do
 	shared_pods

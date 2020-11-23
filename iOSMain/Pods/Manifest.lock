@@ -16,6 +16,9 @@ PODS:
     - AFNetworking/NSURLSession
   - AliyunOSSiOS (2.10.8)
   - Bugly (2.5.71)
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
   - DZNEmptyDataSet (1.8.1)
   - GTSDK (2.4.5.0)
   - HappyDNS (0.3.17)
@@ -28,6 +31,7 @@ PODS:
   - SDWebImage (5.9.1):
     - SDWebImage/Core (= 5.9.1)
   - SDWebImage/Core (5.9.1)
+  - SVProgressHUD (2.2.5)
   - Toast (4.0.0)
   - TZImagePickerController (3.4.2)
   - UMCCommon (7.1.1)
@@ -48,6 +52,7 @@ DEPENDENCIES:
   - AFNetworking
   - AliyunOSSiOS
   - Bugly
+  - CocoaLumberjack (= 3.6.0)
   - DZNEmptyDataSet
   - GTSDK
   - IQKeyboardManager
@@ -56,6 +61,7 @@ DEPENDENCIES:
   - Qiniu
   - ReactiveObjC
   - SDWebImage
+  - SVProgressHUD (= 2.2.5)
   - Toast
   - TZImagePickerController
   - UMCCommon
@@ -67,6 +73,7 @@ SPEC REPOS:
     - AFNetworking
     - AliyunOSSiOS
     - Bugly
+    - CocoaLumberjack
     - DZNEmptyDataSet
     - GTSDK
     - HappyDNS
@@ -76,6 +83,7 @@ SPEC REPOS:
     - Qiniu
     - ReactiveObjC
     - SDWebImage
+    - SVProgressHUD
     - Toast
     - TZImagePickerController
     - UMCCommon
@@ -86,6 +94,7 @@ SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
   Bugly: fd066c75c4a0eca1440f9b6a84bd37d51bfc85ac
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   GTSDK: 57aade75041f96eb1e36a8553a3eba1d1ece424f
   HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea
@@ -95,12 +104,13 @@ SPEC CHECKSUMS:
   Qiniu: bae9e8819bd1caf679ee959bb4c89d8c87535ffa
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: a990c053fff71e388a10f3357edb0be17929c9c5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   TZImagePickerController: cc0b74d5f01ab4cddcc24dcdfc3c7d68e6261056
   UMCCommon: f455f92c125342e360d6ad9eafe484945351eeb5
   UMCShare: a4a95fbdd61ecce5b6751d8c9ed9b519e80fcbc9
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: a81163cc0bacba7bbfee50cdc7b3ecb86556e104
+PODFILE CHECKSUM: 12692d181a3aea9eeb0747fba4438b25d2de1877
 
 COCOAPODS: 1.9.3

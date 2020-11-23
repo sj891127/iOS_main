@@ -11,12 +11,48 @@
 		E5304619255028E60079CF41 /* Pods_iOSMain_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15092ABA8BA584CBD523E7BD /* Pods_iOSMain_dev.framework */; };
 		E530461C255028F80079CF41 /* iOSBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C313C82550114200158205 /* iOSBasic.framework */; };
 		E530461D255028F80079CF41 /* iOSBasic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5C313C82550114200158205 /* iOSBasic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E5368E4B256BA434008AA512 /* NSArray+safeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E4A256BA434008AA512 /* NSArray+safeArray.m */; };
+		E5368E4C256BA434008AA512 /* NSArray+safeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E4A256BA434008AA512 /* NSArray+safeArray.m */; };
+		E5368E4D256BA434008AA512 /* NSArray+safeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E4A256BA434008AA512 /* NSArray+safeArray.m */; };
+		E5368E50256BA496008AA512 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E4F256BA496008AA512 /* NSObject+Additions.m */; };
+		E5368E51256BA496008AA512 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E4F256BA496008AA512 /* NSObject+Additions.m */; };
+		E5368E52256BA496008AA512 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E4F256BA496008AA512 /* NSObject+Additions.m */; };
+		E5368E55256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E54256BA6B3008AA512 /* NSDictionary+safeDictionary.m */; };
+		E5368E56256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E54256BA6B3008AA512 /* NSDictionary+safeDictionary.m */; };
+		E5368E57256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E54256BA6B3008AA512 /* NSDictionary+safeDictionary.m */; };
+		E5368E5A256BAA95008AA512 /* NSNull+nullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E59256BAA95008AA512 /* NSNull+nullSafe.m */; };
+		E5368E5B256BAA95008AA512 /* NSNull+nullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E59256BAA95008AA512 /* NSNull+nullSafe.m */; };
+		E5368E5C256BAA95008AA512 /* NSNull+nullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E59256BAA95008AA512 /* NSNull+nullSafe.m */; };
+		E5368E5F256BAB1B008AA512 /* NSSet+setSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E5E256BAB1B008AA512 /* NSSet+setSafe.m */; };
+		E5368E60256BAB1B008AA512 /* NSSet+setSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E5E256BAB1B008AA512 /* NSSet+setSafe.m */; };
+		E5368E61256BAB1B008AA512 /* NSSet+setSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E5E256BAB1B008AA512 /* NSSet+setSafe.m */; };
+		E5368E64256BAB80008AA512 /* NSString+stringSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E63256BAB80008AA512 /* NSString+stringSafe.m */; };
+		E5368E65256BAB80008AA512 /* NSString+stringSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E63256BAB80008AA512 /* NSString+stringSafe.m */; };
+		E5368E66256BAB80008AA512 /* NSString+stringSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E63256BAB80008AA512 /* NSString+stringSafe.m */; };
+		E5368E69256BAC71008AA512 /* NSNumber+numberSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E68256BAC71008AA512 /* NSNumber+numberSafe.m */; };
+		E5368E6A256BAC71008AA512 /* NSNumber+numberSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E68256BAC71008AA512 /* NSNumber+numberSafe.m */; };
+		E5368E6B256BAC71008AA512 /* NSNumber+numberSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E68256BAC71008AA512 /* NSNumber+numberSafe.m */; };
+		E5368E6E256BACA7008AA512 /* NSValue+valueSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E6D256BACA7008AA512 /* NSValue+valueSafe.m */; };
+		E5368E6F256BACA7008AA512 /* NSValue+valueSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E6D256BACA7008AA512 /* NSValue+valueSafe.m */; };
+		E5368E70256BACA7008AA512 /* NSValue+valueSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E6D256BACA7008AA512 /* NSValue+valueSafe.m */; };
+		E5368E8F256BBB92008AA512 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E8E256BBB92008AA512 /* Reachability.m */; };
+		E5368E90256BBB92008AA512 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E8E256BBB92008AA512 /* Reachability.m */; };
+		E5368E91256BBB92008AA512 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368E8E256BBB92008AA512 /* Reachability.m */; };
+		E5368EB7256BC64A008AA512 /* NSTimer+timer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368EB6256BC64A008AA512 /* NSTimer+timer.m */; };
+		E5368EB8256BC64A008AA512 /* NSTimer+timer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368EB6256BC64A008AA512 /* NSTimer+timer.m */; };
+		E5368EB9256BC64A008AA512 /* NSTimer+timer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368EB6256BC64A008AA512 /* NSTimer+timer.m */; };
+		E5368EBC256BC6A5008AA512 /* UIButton+button.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368EBB256BC6A5008AA512 /* UIButton+button.m */; };
+		E5368EBD256BC6A5008AA512 /* UIButton+button.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368EBB256BC6A5008AA512 /* UIButton+button.m */; };
+		E5368EBE256BC6A5008AA512 /* UIButton+button.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368EBB256BC6A5008AA512 /* UIButton+button.m */; };
 		E56D701F255D35640031EB28 /* MainNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D701E255D35640031EB28 /* MainNetworkHelper.m */; };
 		E56D7020255D35640031EB28 /* MainNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D701E255D35640031EB28 /* MainNetworkHelper.m */; };
 		E56D7021255D35640031EB28 /* MainNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D701E255D35640031EB28 /* MainNetworkHelper.m */; };
 		E56D702B255D37E80031EB28 /* MainBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D702A255D37E80031EB28 /* MainBusinessHelper.m */; };
 		E56D702C255D37E80031EB28 /* MainBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D702A255D37E80031EB28 /* MainBusinessHelper.m */; };
 		E56D702D255D37E80031EB28 /* MainBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D702A255D37E80031EB28 /* MainBusinessHelper.m */; };
+		E56D703D255D432B0031EB28 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D703C255D432B0031EB28 /* Tools.m */; };
+		E56D703E255D432B0031EB28 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D703C255D432B0031EB28 /* Tools.m */; };
+		E56D703F255D432B0031EB28 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D703C255D432B0031EB28 /* Tools.m */; };
 		E5C3135C25500D8F00158205 /* Info_pre.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C3135B25500D8F00158205 /* Info_pre.plist */; };
 		E5C3136125500D9800158205 /* Info_release.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C3136025500D9800158205 /* Info_release.plist */; };
 		E5C3136F25500E3300158205 /* UIStructHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C3136B25500E3300158205 /* UIStructHelper.m */; };
@@ -120,11 +156,37 @@
 		683CC3CC4B4F35CD78BD9794 /* Pods-iOSMain_release.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMain_release.debug.xcconfig"; path = "Target Support Files/Pods-iOSMain_release/Pods-iOSMain_release.debug.xcconfig"; sourceTree = "<group>"; };
 		80FD67552E244AF29CCC1417 /* Pods-iOSMain_pre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMain_pre.debug.xcconfig"; path = "Target Support Files/Pods-iOSMain_pre/Pods-iOSMain_pre.debug.xcconfig"; sourceTree = "<group>"; };
 		92E86281742690ED0AFCF58D /* Pods-iOSMain_dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMain_dev.debug.xcconfig"; path = "Target Support Files/Pods-iOSMain_dev/Pods-iOSMain_dev.debug.xcconfig"; sourceTree = "<group>"; };
+		E5368E49256BA434008AA512 /* NSArray+safeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+safeArray.h"; sourceTree = "<group>"; };
+		E5368E4A256BA434008AA512 /* NSArray+safeArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+safeArray.m"; sourceTree = "<group>"; };
+		E5368E4E256BA496008AA512 /* NSObject+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		E5368E4F256BA496008AA512 /* NSObject+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+		E5368E53256BA6B3008AA512 /* NSDictionary+safeDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+safeDictionary.h"; sourceTree = "<group>"; };
+		E5368E54256BA6B3008AA512 /* NSDictionary+safeDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+safeDictionary.m"; sourceTree = "<group>"; };
+		E5368E58256BAA95008AA512 /* NSNull+nullSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNull+nullSafe.h"; sourceTree = "<group>"; };
+		E5368E59256BAA95008AA512 /* NSNull+nullSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNull+nullSafe.m"; sourceTree = "<group>"; };
+		E5368E5D256BAB1B008AA512 /* NSSet+setSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSet+setSafe.h"; sourceTree = "<group>"; };
+		E5368E5E256BAB1B008AA512 /* NSSet+setSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSet+setSafe.m"; sourceTree = "<group>"; };
+		E5368E62256BAB80008AA512 /* NSString+stringSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+stringSafe.h"; sourceTree = "<group>"; };
+		E5368E63256BAB80008AA512 /* NSString+stringSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+stringSafe.m"; sourceTree = "<group>"; };
+		E5368E67256BAC71008AA512 /* NSNumber+numberSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+numberSafe.h"; sourceTree = "<group>"; };
+		E5368E68256BAC71008AA512 /* NSNumber+numberSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+numberSafe.m"; sourceTree = "<group>"; };
+		E5368E6C256BACA7008AA512 /* NSValue+valueSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSValue+valueSafe.h"; sourceTree = "<group>"; };
+		E5368E6D256BACA7008AA512 /* NSValue+valueSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSValue+valueSafe.m"; sourceTree = "<group>"; };
+		E5368E8C256BB621008AA512 /* LogConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogConst.h; sourceTree = "<group>"; };
+		E5368E8D256BBB92008AA512 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E5368E8E256BBB92008AA512 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E5368EB5256BC64A008AA512 /* NSTimer+timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+timer.h"; sourceTree = "<group>"; };
+		E5368EB6256BC64A008AA512 /* NSTimer+timer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+timer.m"; sourceTree = "<group>"; };
+		E5368EBA256BC6A5008AA512 /* UIButton+button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+button.h"; sourceTree = "<group>"; };
+		E5368EBB256BC6A5008AA512 /* UIButton+button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+button.m"; sourceTree = "<group>"; };
 		E56D7017255D343F0031EB28 /* NetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkConfig.h; sourceTree = "<group>"; };
 		E56D701D255D35640031EB28 /* MainNetworkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainNetworkHelper.h; sourceTree = "<group>"; };
 		E56D701E255D35640031EB28 /* MainNetworkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainNetworkHelper.m; sourceTree = "<group>"; };
 		E56D7029255D37E80031EB28 /* MainBusinessHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainBusinessHelper.h; sourceTree = "<group>"; };
 		E56D702A255D37E80031EB28 /* MainBusinessHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainBusinessHelper.m; sourceTree = "<group>"; };
+		E56D7037255D42070031EB28 /* NotificationConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationConstants.h; sourceTree = "<group>"; };
+		E56D703B255D432B0031EB28 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		E56D703C255D432B0031EB28 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		E5C3135625500D8500158205 /* Info_dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_dev.plist; sourceTree = "<group>"; };
 		E5C3135B25500D8F00158205 /* Info_pre.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_pre.plist; sourceTree = "<group>"; };
 		E5C3136025500D9800158205 /* Info_release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_release.plist; sourceTree = "<group>"; };
@@ -202,6 +264,61 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		E56D7036255D41EB0031EB28 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				E56D7037255D42070031EB28 /* NotificationConstants.h */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		E56D7038255D42E50031EB28 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E56D7039255D42E50031EB28 /* Tools */,
+				E56D703A255D42E50031EB28 /* Category */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E56D7039255D42E50031EB28 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E5368E8D256BBB92008AA512 /* Reachability.h */,
+				E5368E8E256BBB92008AA512 /* Reachability.m */,
+				E56D703B255D432B0031EB28 /* Tools.h */,
+				E56D703C255D432B0031EB28 /* Tools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E56D703A255D42E50031EB28 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E5368E49256BA434008AA512 /* NSArray+safeArray.h */,
+				E5368E4A256BA434008AA512 /* NSArray+safeArray.m */,
+				E5368E4E256BA496008AA512 /* NSObject+Additions.h */,
+				E5368E4F256BA496008AA512 /* NSObject+Additions.m */,
+				E5368E53256BA6B3008AA512 /* NSDictionary+safeDictionary.h */,
+				E5368E54256BA6B3008AA512 /* NSDictionary+safeDictionary.m */,
+				E5368E58256BAA95008AA512 /* NSNull+nullSafe.h */,
+				E5368E59256BAA95008AA512 /* NSNull+nullSafe.m */,
+				E5368E5D256BAB1B008AA512 /* NSSet+setSafe.h */,
+				E5368E5E256BAB1B008AA512 /* NSSet+setSafe.m */,
+				E5368E62256BAB80008AA512 /* NSString+stringSafe.h */,
+				E5368E63256BAB80008AA512 /* NSString+stringSafe.m */,
+				E5368E67256BAC71008AA512 /* NSNumber+numberSafe.h */,
+				E5368E68256BAC71008AA512 /* NSNumber+numberSafe.m */,
+				E5368E6C256BACA7008AA512 /* NSValue+valueSafe.h */,
+				E5368E6D256BACA7008AA512 /* NSValue+valueSafe.m */,
+				E5368EB5256BC64A008AA512 /* NSTimer+timer.h */,
+				E5368EB6256BC64A008AA512 /* NSTimer+timer.m */,
+				E5368EBA256BC6A5008AA512 /* UIButton+button.h */,
+				E5368EBB256BC6A5008AA512 /* UIButton+button.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		E5C313C42550114000158205 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +350,8 @@
 		E5C5908825500C7A00774474 /* iOSMain */ = {
 			isa = PBXGroup;
 			children = (
+				E56D7038255D42E50031EB28 /* Util */,
+				E56D7036255D41EB0031EB28 /* Notification */,
 				E56D7016255D34240031EB28 /* Network */,
 				E5C3136D25500E3300158205 /* TestViewController.h */,
 				E5C3136C25500E3300158205 /* TestViewController.m */,
@@ -248,6 +367,7 @@
 				E5C5909B25500C7C00774474 /* main.m */,
 				E5C590C625500D5D00774474 /* Res */,
 				E5C313E02550133600158205 /* iOSMainPrefixHeader.pch */,
+				E5368E8C256BB621008AA512 /* LogConst.h */,
 			);
 			path = iOSMain;
 			sourceTree = "<group>";
@@ -551,12 +671,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				E56D702B255D37E80031EB28 /* MainBusinessHelper.m in Sources */,
+				E5368E5A256BAA95008AA512 /* NSNull+nullSafe.m in Sources */,
+				E5368EB7256BC64A008AA512 /* NSTimer+timer.m in Sources */,
+				E5368E5F256BAB1B008AA512 /* NSSet+setSafe.m in Sources */,
+				E5368E6E256BACA7008AA512 /* NSValue+valueSafe.m in Sources */,
 				E56D701F255D35640031EB28 /* MainNetworkHelper.m in Sources */,
 				E5C5909125500C7A00774474 /* ViewController.m in Sources */,
+				E56D703D255D432B0031EB28 /* Tools.m in Sources */,
 				E5C5908B25500C7A00774474 /* AppDelegate.m in Sources */,
+				E5368E69256BAC71008AA512 /* NSNumber+numberSafe.m in Sources */,
+				E5368E50256BA496008AA512 /* NSObject+Additions.m in Sources */,
+				E5368EBC256BC6A5008AA512 /* UIButton+button.m in Sources */,
 				E5C3136F25500E3300158205 /* UIStructHelper.m in Sources */,
 				E5C5909C25500C7C00774474 /* main.m in Sources */,
 				E5C3137225500E3300158205 /* TestViewController.m in Sources */,
+				E5368E64256BAB80008AA512 /* NSString+stringSafe.m in Sources */,
+				E5368E55256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */,
+				E5368E4B256BA434008AA512 /* NSArray+safeArray.m in Sources */,
+				E5368E8F256BBB92008AA512 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,12 +697,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				E56D702C255D37E80031EB28 /* MainBusinessHelper.m in Sources */,
+				E5368E5B256BAA95008AA512 /* NSNull+nullSafe.m in Sources */,
+				E5368EB8256BC64A008AA512 /* NSTimer+timer.m in Sources */,
+				E5368E60256BAB1B008AA512 /* NSSet+setSafe.m in Sources */,
+				E5368E6F256BACA7008AA512 /* NSValue+valueSafe.m in Sources */,
 				E56D7020255D35640031EB28 /* MainNetworkHelper.m in Sources */,
 				E5C590A525500C8300774474 /* ViewController.m in Sources */,
+				E56D703E255D432B0031EB28 /* Tools.m in Sources */,
 				E5C590A625500C8300774474 /* AppDelegate.m in Sources */,
+				E5368E6A256BAC71008AA512 /* NSNumber+numberSafe.m in Sources */,
+				E5368E51256BA496008AA512 /* NSObject+Additions.m in Sources */,
+				E5368EBD256BC6A5008AA512 /* UIButton+button.m in Sources */,
 				E5C3137025500E3300158205 /* UIStructHelper.m in Sources */,
 				E5C590A725500C8300774474 /* main.m in Sources */,
 				E5C3137325500E3300158205 /* TestViewController.m in Sources */,
+				E5368E65256BAB80008AA512 /* NSString+stringSafe.m in Sources */,
+				E5368E56256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */,
+				E5368E4C256BA434008AA512 /* NSArray+safeArray.m in Sources */,
+				E5368E90256BBB92008AA512 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,12 +723,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				E56D702D255D37E80031EB28 /* MainBusinessHelper.m in Sources */,
+				E5368E5C256BAA95008AA512 /* NSNull+nullSafe.m in Sources */,
+				E5368EB9256BC64A008AA512 /* NSTimer+timer.m in Sources */,
+				E5368E61256BAB1B008AA512 /* NSSet+setSafe.m in Sources */,
+				E5368E70256BACA7008AA512 /* NSValue+valueSafe.m in Sources */,
 				E56D7021255D35640031EB28 /* MainNetworkHelper.m in Sources */,
 				E5C590B525500C8500774474 /* ViewController.m in Sources */,
+				E56D703F255D432B0031EB28 /* Tools.m in Sources */,
 				E5C590B625500C8500774474 /* AppDelegate.m in Sources */,
+				E5368E6B256BAC71008AA512 /* NSNumber+numberSafe.m in Sources */,
+				E5368E52256BA496008AA512 /* NSObject+Additions.m in Sources */,
+				E5368EBE256BC6A5008AA512 /* UIButton+button.m in Sources */,
 				E5C3137125500E3300158205 /* UIStructHelper.m in Sources */,
 				E5C590B725500C8500774474 /* main.m in Sources */,
 				E5C3137425500E3300158205 /* TestViewController.m in Sources */,
+				E5368E66256BAB80008AA512 /* NSString+stringSafe.m in Sources */,
+				E5368E57256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */,
+				E5368E4D256BA434008AA512 /* NSArray+safeArray.m in Sources */,
+				E5368E91256BBB92008AA512 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
