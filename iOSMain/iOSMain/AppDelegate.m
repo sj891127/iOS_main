@@ -59,6 +59,7 @@ AppDelegate *appDelegate = nil;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [self resetGTBadge];
     [self setNetwork];
     [self setUI];
     [self setHud];
@@ -74,6 +75,10 @@ AppDelegate *appDelegate = nil;
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
+    [self resetGTBadge];
+}
+
+- (void)resetGTBadge{
     [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
     [GeTuiSdk resetBadge];
 }

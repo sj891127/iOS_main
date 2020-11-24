@@ -46,27 +46,27 @@ PODS:
     - GCDWebServer/Core
   - GCDWebServer/WebUploader (3.5.4):
     - GCDWebServer/Core
-  - GTSDK (2.4.5.0)
+  - GTSDK (2.4.6.0)
   - HappyDNS (0.3.17)
   - IQKeyboardManager (6.5.6)
   - Masonry (1.1.0)
   - MJRefresh (3.5.0)
-  - Qiniu (8.0.2):
+  - Qiniu (8.0.4):
     - HappyDNS (~> 0.3.17)
   - ReactiveObjC (3.1.1)
-  - SDWebImage (5.9.1):
-    - SDWebImage/Core (= 5.9.1)
-  - SDWebImage/Core (5.9.1)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
   - SVProgressHUD (2.2.5)
   - Toast (4.0.0)
-  - TZImagePickerController (3.4.2)
-  - UMCCommon (7.1.1)
-  - UMCShare/Core (6.9.10):
+  - TZImagePickerController (3.5.3)
+  - UMCCommon (7.2.2)
+  - UMCShare/Core (6.10.1):
     - UMCCommon
-  - UMCShare/Social/ReducedWeChat (6.9.10):
+  - UMCShare/Social/ReducedWeChat (6.10.1):
     - UMCCommon
     - UMCShare/Core
-  - UMCShare/Social/WeChat (6.9.10):
+  - UMCShare/Social/WeChat (6.10.1):
     - UMCCommon
     - UMCShare/Core
     - UMCShare/Social/ReducedWeChat
@@ -82,11 +82,11 @@ DEPENDENCIES:
   - AliyunOSSiOS
   - Bugly
   - CocoaLumberjack (= 3.6.0)
-  - DoraemonKit/Core (~> 3.0.2)
-  - DoraemonKit/WithDatabase (~> 3.0.2)
-  - DoraemonKit/WithGPS (~> 3.0.2)
-  - DoraemonKit/WithLoad (~> 3.0.2)
-  - DoraemonKit/WithMLeaksFinder (~> 3.0.2)
+  - DoraemonKit/Core
+  - DoraemonKit/WithDatabase
+  - DoraemonKit/WithGPS
+  - DoraemonKit/WithLoad
+  - DoraemonKit/WithMLeaksFinder
   - DZNEmptyDataSet
   - GTSDK
   - IQKeyboardManager
@@ -139,22 +139,22 @@ SPEC CHECKSUMS:
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
-  GTSDK: 57aade75041f96eb1e36a8553a3eba1d1ece424f
+  GTSDK: 271214756c2abae9bc5cb8ed2ea90f0bc9af341c
   HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
-  Qiniu: bae9e8819bd1caf679ee959bb4c89d8c87535ffa
+  Qiniu: 967efbfa2366d14c87899757013c0fd0ebb896e0
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SDWebImage: a990c053fff71e388a10f3357edb0be17929c9c5
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
-  TZImagePickerController: cc0b74d5f01ab4cddcc24dcdfc3c7d68e6261056
-  UMCCommon: f455f92c125342e360d6ad9eafe484945351eeb5
-  UMCShare: a4a95fbdd61ecce5b6751d8c9ed9b519e80fcbc9
+  TZImagePickerController: 53d776cffd56bfd8130703ca0f5cd07715561cc2
+  UMCCommon: 15e5311b00c7ff6e6ffb1f5c965651373b6b2b3c
+  UMCShare: 0846449c689e8bf6793a941b97f51f9afff927ef
   YYDebugDatabase: e684a7f79fca2e3673a23347cefb822f911f3124
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 1036dbbcc8cf2a6426edf96befc3f2e6492e84d5
+PODFILE CHECKSUM: 472da40075dfe6e01ea626e773f68ac8590f0477
 
 COCOAPODS: 1.9.3
