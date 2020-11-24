@@ -11,6 +11,11 @@
 #import <UMShare/UMShare.h>
 #import <UMCommon/UMCommon.h>
 #import <Bugly/Bugly.h>
+#import "IQKeyboardManager.h"
+#if ENV == 3
+#import <DoraemonKit/DoraemonManager.h>
+#endif
+
 AppDelegate *appDelegate = nil;
 
 @interface AppDelegate ()<GeTuiSdkDelegate,UNUserNotificationCenterDelegate>
@@ -54,24 +59,37 @@ AppDelegate *appDelegate = nil;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [self setupNetwork];
-    [self setupUI];
+    [self setNetwork];
+    [self setUI];
     [self setHud];
     [self setToast];
-    [self setupDDLog];
-    [self setUpGeTui];
-    [self setUpShareSettings];
-    [self setUpSharePlatforms];
-    [self setUpBugly];
+    [self setDDLog];
+    [self setGeTui];
+    [self setShareSettings];
+    [self setSharePlatforms];
+    [self setBugly];
+    [self setKeyBoard];
+    [self setDoraemon];
     return YES;
 }
 
-- (void)setupUI {
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+    [GeTuiSdk resetBadge];
+}
+
+- (void)setUI {
     [[UIButton appearance] setExclusiveTouch:YES];
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [UIStructHelper sharedInstance].rootController;
     [self.window makeKeyAndVisible];
+}
+
+- (void)setKeyBoard{
+    [IQKeyboardManager sharedManager].enable = YES;
+    [[IQKeyboardManager sharedManager] setShouldResignOnTouchOutside:YES];
+    [IQKeyboardManager sharedManager].enableAutoToolbar = NO;
 }
 
 - (void)setHud {
@@ -99,8 +117,17 @@ AppDelegate *appDelegate = nil;
     [CSToastManager setDefaultPosition:CSToastPositionCenter];
 }
 
+- (void)setDoraemon {
+#if ENV == 3
+    //默认
+    [[DoraemonManager shareInstance] install];
+    // 或者使用传入位置,解决遮挡关键区域,减少频繁移动
+    //[[DoraemonManager shareInstance] installWithStartingPosition:CGPointMake(66, 66)];
+#endif
+}
+
 // 配置用户请求域名及header信息
-- (void)setupNetwork {
+- (void)setNetwork {
     [RequestManager sharedInstance].delegate = [MainNetworkHelper sharedInstance];
     [[RequestManager sharedInstance] configEviroment:[MainNetworkHelper sharedInstance].env];
     [BasicHandler sharedInstance].delegate = [MainBusinessHelper sharedInstance];
@@ -116,7 +143,7 @@ AppDelegate *appDelegate = nil;
 }
 
 //初始化DDLog 配置
-- (void)setupDDLog{
+- (void)setDDLog{
     [DDLog addLogger:[DDOSLogger sharedInstance]]; // Uses os_lo
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init]; // File Logger
     fileLogger.rollingFrequency = 60 * 60 * 24; // 24 hour rolling
@@ -124,7 +151,7 @@ AppDelegate *appDelegate = nil;
     [DDLog addLogger:fileLogger];
 }
 
-- (void)setUpGeTui{
+- (void)setGeTui{
     if (![[NSUserDefaults standardUserDefaults] objectForKey:@"uuId"]) {
         [[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%u",arc4random()%1000000] forKey:@"uuId"];
     }
@@ -201,16 +228,16 @@ AppDelegate *appDelegate = nil;
     [[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%@",clientId] forKey:@"iOSclientId"];
 }
 
-- (void)setUpShareSettings{
+- (void)setShareSettings{
     [UMConfigure initWithAppkey:@"" channel:@"App Store"];
     [UMSocialGlobal shareInstance].universalLinkDic = @{@(UMSocialPlatformType_WechatSession):@"",@(UMSocialPlatformType_WechatTimeLine):@""};
 }
 
-- (void)setUpSharePlatforms{
+- (void)setSharePlatforms{
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:@"" appSecret:@"" redirectURL:@"http://mobile.umeng.com/social"];
 }
 
-- (void)setUpBugly{
+- (void)setBugly{
     [Bugly startWithAppId:@""];
 }
 

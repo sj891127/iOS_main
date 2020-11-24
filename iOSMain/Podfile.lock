@@ -19,7 +19,33 @@ PODS:
   - CocoaLumberjack (3.6.0):
     - CocoaLumberjack/Core (= 3.6.0)
   - CocoaLumberjack/Core (3.6.0)
+  - DoraemonKit/Core (3.0.4):
+    - FMDB
+    - GCDWebServer
+    - GCDWebServer/WebDAV
+    - GCDWebServer/WebUploader
+  - DoraemonKit/WithDatabase (3.0.4):
+    - DoraemonKit/Core
+    - YYDebugDatabase
+  - DoraemonKit/WithGPS (3.0.4):
+    - DoraemonKit/Core
+  - DoraemonKit/WithLoad (3.0.4):
+    - DoraemonKit/Core
+  - DoraemonKit/WithMLeaksFinder (3.0.4):
+    - DoraemonKit/Core
+    - FBRetainCycleDetector
   - DZNEmptyDataSet (1.8.1)
+  - FBRetainCycleDetector (0.1.4)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebDAV (3.5.4):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
   - GTSDK (2.4.5.0)
   - HappyDNS (0.3.17)
   - IQKeyboardManager (6.5.6)
@@ -44,6 +70,9 @@ PODS:
     - UMCCommon
     - UMCShare/Core
     - UMCShare/Social/ReducedWeChat
+  - YYDebugDatabase (2.1.0):
+    - FMDB
+    - GCDWebServer
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -53,6 +82,11 @@ DEPENDENCIES:
   - AliyunOSSiOS
   - Bugly
   - CocoaLumberjack (= 3.6.0)
+  - DoraemonKit/Core (~> 3.0.2)
+  - DoraemonKit/WithDatabase (~> 3.0.2)
+  - DoraemonKit/WithGPS (~> 3.0.2)
+  - DoraemonKit/WithLoad (~> 3.0.2)
+  - DoraemonKit/WithMLeaksFinder (~> 3.0.2)
   - DZNEmptyDataSet
   - GTSDK
   - IQKeyboardManager
@@ -74,7 +108,11 @@ SPEC REPOS:
     - AliyunOSSiOS
     - Bugly
     - CocoaLumberjack
+    - DoraemonKit
     - DZNEmptyDataSet
+    - FBRetainCycleDetector
+    - FMDB
+    - GCDWebServer
     - GTSDK
     - HappyDNS
     - IQKeyboardManager
@@ -88,6 +126,7 @@ SPEC REPOS:
     - TZImagePickerController
     - UMCCommon
     - UMCShare
+    - YYDebugDatabase
     - YYKit
 
 SPEC CHECKSUMS:
@@ -95,7 +134,11 @@ SPEC CHECKSUMS:
   AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
   Bugly: fd066c75c4a0eca1440f9b6a84bd37d51bfc85ac
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  DoraemonKit: b507a1500667024070f248d648632a3f7bbb6044
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   GTSDK: 57aade75041f96eb1e36a8553a3eba1d1ece424f
   HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
@@ -109,8 +152,9 @@ SPEC CHECKSUMS:
   TZImagePickerController: cc0b74d5f01ab4cddcc24dcdfc3c7d68e6261056
   UMCCommon: f455f92c125342e360d6ad9eafe484945351eeb5
   UMCShare: a4a95fbdd61ecce5b6751d8c9ed9b519e80fcbc9
+  YYDebugDatabase: e684a7f79fca2e3673a23347cefb822f911f3124
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 12692d181a3aea9eeb0747fba4438b25d2de1877
+PODFILE CHECKSUM: 1036dbbcc8cf2a6426edf96befc3f2e6492e84d5
 
 COCOAPODS: 1.9.3

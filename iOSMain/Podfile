@@ -32,6 +32,11 @@ def shared_pods
   pod 'GTSDK'
   pod 'CocoaLumberjack' , '3.6.0'
   pod 'SVProgressHUD' , '2.2.5'
+  pod 'DoraemonKit/Core', '~> 3.0.2', :configurations => ['Debug']
+  pod 'DoraemonKit/WithGPS', '~> 3.0.2', :configurations => ['Debug']
+  pod 'DoraemonKit/WithLoad', '~> 3.0.2', :configurations => ['Debug']
+  pod 'DoraemonKit/WithDatabase', '~> 3.0.2', :configurations => ['Debug']
+  pod 'DoraemonKit/WithMLeaksFinder', '~> 3.0.2', :configurations => ['Debug']
 end
 target 'iOSMain_dev' do
 	shared_pods
