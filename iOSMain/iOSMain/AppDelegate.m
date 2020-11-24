@@ -12,7 +12,7 @@
 #import <UMCommon/UMCommon.h>
 #import <Bugly/Bugly.h>
 #import "IQKeyboardManager.h"
-#if ENV == 3
+#if ENV == 1
 #import <DoraemonKit/DoraemonManager.h>
 #endif
 
@@ -118,8 +118,7 @@ AppDelegate *appDelegate = nil;
 }
 
 - (void)setDoraemon {
-#if ENV == 3
-    //默认
+#if ENV == 1
     [[DoraemonManager shareInstance] install];
     // 或者使用传入位置,解决遮挡关键区域,减少频繁移动
     //[[DoraemonManager shareInstance] installWithStartingPosition:CGPointMake(66, 66)];
