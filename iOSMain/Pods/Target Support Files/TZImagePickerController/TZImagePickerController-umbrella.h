@@ -24,6 +24,7 @@
 #import "TZPhotoPreviewController.h"
 #import "TZProgressView.h"
 #import "TZVideoPlayerController.h"
+#import "UIView+Layout 2.h"
 #import "UIView+Layout.h"
 
 FOUNDATION_EXPORT double TZImagePickerControllerVersionNumber;
