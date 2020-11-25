@@ -38,6 +38,14 @@
 		E56D702D255D37E80031EB28 /* MainBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D702A255D37E80031EB28 /* MainBusinessHelper.m */; };
 		E56D703D255D432B0031EB28 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D703C255D432B0031EB28 /* Tools.m */; };
 		E56D703F255D432B0031EB28 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D703C255D432B0031EB28 /* Tools.m */; };
+		E5B6825F256E2C0B009DCFA9 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B6825E256E2C0B009DCFA9 /* VideoViewController.m */; };
+		E5B68260256E2C0B009DCFA9 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B6825E256E2C0B009DCFA9 /* VideoViewController.m */; };
+		E5B68263256E2DD9009DCFA9 /* VideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B68262256E2DD9009DCFA9 /* VideoProgressView.m */; };
+		E5B68264256E2DD9009DCFA9 /* VideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B68262256E2DD9009DCFA9 /* VideoProgressView.m */; };
+		E5B68267256E2E6C009DCFA9 /* VideoAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B68266256E2E6C009DCFA9 /* VideoAVPlayer.m */; };
+		E5B68268256E2E6C009DCFA9 /* VideoAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B68266256E2E6C009DCFA9 /* VideoAVPlayer.m */; };
+		E5B6826B256E3A1A009DCFA9 /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B6826A256E3A1A009DCFA9 /* VideoView.m */; };
+		E5B6826C256E3A1A009DCFA9 /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B6826A256E3A1A009DCFA9 /* VideoView.m */; };
 		E5C3136125500D9800158205 /* Info_release.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C3136025500D9800158205 /* Info_release.plist */; };
 		E5C3136F25500E3300158205 /* UIStructHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C3136B25500E3300158205 /* UIStructHelper.m */; };
 		E5C3137125500E3300158205 /* UIStructHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C3136B25500E3300158205 /* UIStructHelper.m */; };
@@ -143,6 +151,14 @@
 		E56D7037255D42070031EB28 /* NotificationConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationConstants.h; sourceTree = "<group>"; };
 		E56D703B255D432B0031EB28 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		E56D703C255D432B0031EB28 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		E5B6825D256E2C0B009DCFA9 /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		E5B6825E256E2C0B009DCFA9 /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		E5B68261256E2DD9009DCFA9 /* VideoProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoProgressView.h; sourceTree = "<group>"; };
+		E5B68262256E2DD9009DCFA9 /* VideoProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoProgressView.m; sourceTree = "<group>"; };
+		E5B68265256E2E6C009DCFA9 /* VideoAVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoAVPlayer.h; sourceTree = "<group>"; };
+		E5B68266256E2E6C009DCFA9 /* VideoAVPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoAVPlayer.m; sourceTree = "<group>"; };
+		E5B68269256E3A1A009DCFA9 /* VideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		E5B6826A256E3A1A009DCFA9 /* VideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
 		E5C3135625500D8500158205 /* Info_dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_dev.plist; sourceTree = "<group>"; };
 		E5C3136025500D9800158205 /* Info_release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_release.plist; sourceTree = "<group>"; };
 		E5C3136B25500E3300158205 /* UIStructHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIStructHelper.m; sourceTree = "<group>"; };
@@ -264,6 +280,29 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		E5B6825B256E2BBE009DCFA9 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				E5B6825C256E2BF0009DCFA9 /* Camera */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		E5B6825C256E2BF0009DCFA9 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E5B6825D256E2C0B009DCFA9 /* VideoViewController.h */,
+				E5B6825E256E2C0B009DCFA9 /* VideoViewController.m */,
+				E5B68261256E2DD9009DCFA9 /* VideoProgressView.h */,
+				E5B68262256E2DD9009DCFA9 /* VideoProgressView.m */,
+				E5B68265256E2E6C009DCFA9 /* VideoAVPlayer.h */,
+				E5B68266256E2E6C009DCFA9 /* VideoAVPlayer.m */,
+				E5B68269256E3A1A009DCFA9 /* VideoView.h */,
+				E5B6826A256E3A1A009DCFA9 /* VideoView.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		E5C313C42550114000158205 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +333,7 @@
 		E5C5908825500C7A00774474 /* iOSMain */ = {
 			isa = PBXGroup;
 			children = (
+				E5B6825B256E2BBE009DCFA9 /* CustomUI */,
 				E56D7038255D42E50031EB28 /* Util */,
 				E56D7036255D41EB0031EB28 /* Notification */,
 				E56D7016255D34240031EB28 /* Network */,
@@ -541,16 +581,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B68263256E2DD9009DCFA9 /* VideoProgressView.m in Sources */,
 				E56D702B255D37E80031EB28 /* MainBusinessHelper.m in Sources */,
 				E5368E5A256BAA95008AA512 /* NSNull+nullSafe.m in Sources */,
 				E5368EB7256BC64A008AA512 /* NSTimer+timer.m in Sources */,
 				E5368E5F256BAB1B008AA512 /* NSSet+setSafe.m in Sources */,
+				E5B68267256E2E6C009DCFA9 /* VideoAVPlayer.m in Sources */,
 				E5368E6E256BACA7008AA512 /* NSValue+valueSafe.m in Sources */,
 				E56D701F255D35640031EB28 /* MainNetworkHelper.m in Sources */,
 				E5C5909125500C7A00774474 /* ViewController.m in Sources */,
 				E56D703D255D432B0031EB28 /* Tools.m in Sources */,
 				E5C5908B25500C7A00774474 /* AppDelegate.m in Sources */,
 				E5368E69256BAC71008AA512 /* NSNumber+numberSafe.m in Sources */,
+				E5B6825F256E2C0B009DCFA9 /* VideoViewController.m in Sources */,
 				E5368E50256BA496008AA512 /* NSObject+Additions.m in Sources */,
 				E5368EBC256BC6A5008AA512 /* UIButton+button.m in Sources */,
 				E5C3136F25500E3300158205 /* UIStructHelper.m in Sources */,
@@ -558,6 +601,7 @@
 				E5C3137225500E3300158205 /* TestViewController.m in Sources */,
 				E5368E64256BAB80008AA512 /* NSString+stringSafe.m in Sources */,
 				E5368E55256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */,
+				E5B6826B256E3A1A009DCFA9 /* VideoView.m in Sources */,
 				E5368E4B256BA434008AA512 /* NSArray+safeArray.m in Sources */,
 				E5368E8F256BBB92008AA512 /* Reachability.m in Sources */,
 			);
@@ -567,16 +611,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B68264256E2DD9009DCFA9 /* VideoProgressView.m in Sources */,
 				E56D702D255D37E80031EB28 /* MainBusinessHelper.m in Sources */,
 				E5368E5C256BAA95008AA512 /* NSNull+nullSafe.m in Sources */,
 				E5368EB9256BC64A008AA512 /* NSTimer+timer.m in Sources */,
 				E5368E61256BAB1B008AA512 /* NSSet+setSafe.m in Sources */,
+				E5B68268256E2E6C009DCFA9 /* VideoAVPlayer.m in Sources */,
 				E5368E70256BACA7008AA512 /* NSValue+valueSafe.m in Sources */,
 				E56D7021255D35640031EB28 /* MainNetworkHelper.m in Sources */,
 				E5C590B525500C8500774474 /* ViewController.m in Sources */,
 				E56D703F255D432B0031EB28 /* Tools.m in Sources */,
 				E5C590B625500C8500774474 /* AppDelegate.m in Sources */,
 				E5368E6B256BAC71008AA512 /* NSNumber+numberSafe.m in Sources */,
+				E5B68260256E2C0B009DCFA9 /* VideoViewController.m in Sources */,
 				E5368E52256BA496008AA512 /* NSObject+Additions.m in Sources */,
 				E5368EBE256BC6A5008AA512 /* UIButton+button.m in Sources */,
 				E5C3137125500E3300158205 /* UIStructHelper.m in Sources */,
@@ -584,6 +631,7 @@
 				E5C3137425500E3300158205 /* TestViewController.m in Sources */,
 				E5368E66256BAB80008AA512 /* NSString+stringSafe.m in Sources */,
 				E5368E57256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */,
+				E5B6826C256E3A1A009DCFA9 /* VideoView.m in Sources */,
 				E5368E4D256BA434008AA512 /* NSArray+safeArray.m in Sources */,
 				E5368E91256BBB92008AA512 /* Reachability.m in Sources */,
 			);
