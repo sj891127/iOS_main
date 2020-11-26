@@ -74,6 +74,8 @@ SYNTHESIZE_ARC_SINGLETON_FOR_CLASS_HEADER(Tools)
 + (NSDictionary *)getIPAddresses;
 //获取网络状态
 + (NSString *)getNetconnType;
+//调整image角度
++ (UIImage *)imageWithRightOrientation:(UIImage *)aImage;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -84,6 +84,11 @@ AppDelegate *appDelegate = nil;
 }
 
 - (void)setUI {
+    if (@available(iOS 11.0, *)){
+        UITableView.appearance.estimatedRowHeight = 0;
+        UITableView.appearance.estimatedSectionFooterHeight = 0;
+        UITableView.appearance.estimatedSectionHeaderHeight = 0;
+    }
     [[UIButton appearance] setExclusiveTouch:YES];
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -156,9 +161,6 @@ AppDelegate *appDelegate = nil;
 }
 
 - (void)setGeTui{
-    if (![[NSUserDefaults standardUserDefaults] objectForKey:@"uuId"]) {
-        [[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%u",arc4random()%1000000] forKey:@"uuId"];
-    }
     [GeTuiSdk startSdkWithAppId:@"" appKey:@"" appSecret:@"" delegate:self];
     [self registerAPNs];
     [UIApplication sharedApplication].applicationIconBadgeNumber = 0;

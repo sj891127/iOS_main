@@ -53,10 +53,6 @@ SYNTHESIZE_ARC_SINGLETON_FOR_CLASS(MainNetworkHelper)
         case EnvironmentDev:
             reStr = [NSString stringWithFormat:@"%@://%@/%@/%@/", SchemeHttp, Domain_Dev, Application, APIVersion];
             break;
-        case EnvironmentPre: {
-            
-        }
-            break;
         case EnvironmentOnline: {
             reStr = [NSString stringWithFormat:@"%@://%@/%@/%@/", SchemeHttp, Domain_Online, Application, APIVersion];
         }

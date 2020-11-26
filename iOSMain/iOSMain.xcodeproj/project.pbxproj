@@ -38,6 +38,10 @@
 		E56D702D255D37E80031EB28 /* MainBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D702A255D37E80031EB28 /* MainBusinessHelper.m */; };
 		E56D703D255D432B0031EB28 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D703C255D432B0031EB28 /* Tools.m */; };
 		E56D703F255D432B0031EB28 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D703C255D432B0031EB28 /* Tools.m */; };
+		E587C702256FA7FF00E335E9 /* ImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E587C701256FA7FF00E335E9 /* ImagePickerManager.m */; };
+		E587C703256FA7FF00E335E9 /* ImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E587C701256FA7FF00E335E9 /* ImagePickerManager.m */; };
+		E587C706256FB15D00E335E9 /* ImagePickerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E587C705256FB15D00E335E9 /* ImagePickerImpl.m */; };
+		E587C707256FB15D00E335E9 /* ImagePickerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E587C705256FB15D00E335E9 /* ImagePickerImpl.m */; };
 		E5B6825F256E2C0B009DCFA9 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B6825E256E2C0B009DCFA9 /* VideoViewController.m */; };
 		E5B68260256E2C0B009DCFA9 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B6825E256E2C0B009DCFA9 /* VideoViewController.m */; };
 		E5B68263256E2DD9009DCFA9 /* VideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B68262256E2DD9009DCFA9 /* VideoProgressView.m */; };
@@ -151,6 +155,10 @@
 		E56D7037255D42070031EB28 /* NotificationConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationConstants.h; sourceTree = "<group>"; };
 		E56D703B255D432B0031EB28 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		E56D703C255D432B0031EB28 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		E587C700256FA7FF00E335E9 /* ImagePickerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePickerManager.h; sourceTree = "<group>"; };
+		E587C701256FA7FF00E335E9 /* ImagePickerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerManager.m; sourceTree = "<group>"; };
+		E587C704256FB15D00E335E9 /* ImagePickerImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePickerImpl.h; sourceTree = "<group>"; };
+		E587C705256FB15D00E335E9 /* ImagePickerImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerImpl.m; sourceTree = "<group>"; };
 		E5B6825D256E2C0B009DCFA9 /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		E5B6825E256E2C0B009DCFA9 /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		E5B68261256E2DD9009DCFA9 /* VideoProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoProgressView.h; sourceTree = "<group>"; };
@@ -280,9 +288,21 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		E587C6E4256FA11F00E335E9 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				E587C700256FA7FF00E335E9 /* ImagePickerManager.h */,
+				E587C701256FA7FF00E335E9 /* ImagePickerManager.m */,
+				E587C704256FB15D00E335E9 /* ImagePickerImpl.h */,
+				E587C705256FB15D00E335E9 /* ImagePickerImpl.m */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
 		E5B6825B256E2BBE009DCFA9 /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
+				E587C6E4256FA11F00E335E9 /* Photo */,
 				E5B6825C256E2BF0009DCFA9 /* Camera */,
 			);
 			path = CustomUI;
@@ -586,6 +606,7 @@
 				E5368E5A256BAA95008AA512 /* NSNull+nullSafe.m in Sources */,
 				E5368EB7256BC64A008AA512 /* NSTimer+timer.m in Sources */,
 				E5368E5F256BAB1B008AA512 /* NSSet+setSafe.m in Sources */,
+				E587C706256FB15D00E335E9 /* ImagePickerImpl.m in Sources */,
 				E5B68267256E2E6C009DCFA9 /* VideoAVPlayer.m in Sources */,
 				E5368E6E256BACA7008AA512 /* NSValue+valueSafe.m in Sources */,
 				E56D701F255D35640031EB28 /* MainNetworkHelper.m in Sources */,
@@ -600,6 +621,7 @@
 				E5C5909C25500C7C00774474 /* main.m in Sources */,
 				E5C3137225500E3300158205 /* TestViewController.m in Sources */,
 				E5368E64256BAB80008AA512 /* NSString+stringSafe.m in Sources */,
+				E587C702256FA7FF00E335E9 /* ImagePickerManager.m in Sources */,
 				E5368E55256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */,
 				E5B6826B256E3A1A009DCFA9 /* VideoView.m in Sources */,
 				E5368E4B256BA434008AA512 /* NSArray+safeArray.m in Sources */,
@@ -616,6 +638,7 @@
 				E5368E5C256BAA95008AA512 /* NSNull+nullSafe.m in Sources */,
 				E5368EB9256BC64A008AA512 /* NSTimer+timer.m in Sources */,
 				E5368E61256BAB1B008AA512 /* NSSet+setSafe.m in Sources */,
+				E587C707256FB15D00E335E9 /* ImagePickerImpl.m in Sources */,
 				E5B68268256E2E6C009DCFA9 /* VideoAVPlayer.m in Sources */,
 				E5368E70256BACA7008AA512 /* NSValue+valueSafe.m in Sources */,
 				E56D7021255D35640031EB28 /* MainNetworkHelper.m in Sources */,
@@ -630,6 +653,7 @@
 				E5C590B725500C8500774474 /* main.m in Sources */,
 				E5C3137425500E3300158205 /* TestViewController.m in Sources */,
 				E5368E66256BAB80008AA512 /* NSString+stringSafe.m in Sources */,
+				E587C703256FA7FF00E335E9 /* ImagePickerManager.m in Sources */,
 				E5368E57256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */,
 				E5B6826C256E3A1A009DCFA9 /* VideoView.m in Sources */,
 				E5368E4D256BA434008AA512 /* NSArray+safeArray.m in Sources */,
