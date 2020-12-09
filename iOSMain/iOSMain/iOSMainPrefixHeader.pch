@@ -20,5 +20,8 @@
 #import <Masonry/Masonry.h>
 #import <YYKit/YYKit.h>
 #import "ImagePickerManager.h"
+#import "UIControl+Repeate.h"
+#import "UserDefaults.h"
+#import "UserDefaults+Extened.h"
 
 #endif /* iOSMainPrefixHeader_pch */

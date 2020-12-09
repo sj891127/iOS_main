@@ -32,6 +32,10 @@
 		E5368EB9256BC64A008AA512 /* NSTimer+timer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368EB6256BC64A008AA512 /* NSTimer+timer.m */; };
 		E5368EBC256BC6A5008AA512 /* UIButton+button.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368EBB256BC6A5008AA512 /* UIButton+button.m */; };
 		E5368EBE256BC6A5008AA512 /* UIButton+button.m in Sources */ = {isa = PBXBuildFile; fileRef = E5368EBB256BC6A5008AA512 /* UIButton+button.m */; };
+		E54A4AFA2576561A00F35FA8 /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = E54A4AF92576561A00F35FA8 /* UserDefaults.m */; };
+		E54A4AFB2576561A00F35FA8 /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = E54A4AF92576561A00F35FA8 /* UserDefaults.m */; };
+		E54A4AFE2576565F00F35FA8 /* UserDefaults+Extened.m in Sources */ = {isa = PBXBuildFile; fileRef = E54A4AFD2576565F00F35FA8 /* UserDefaults+Extened.m */; };
+		E54A4AFF2576565F00F35FA8 /* UserDefaults+Extened.m in Sources */ = {isa = PBXBuildFile; fileRef = E54A4AFD2576565F00F35FA8 /* UserDefaults+Extened.m */; };
 		E56D701F255D35640031EB28 /* MainNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D701E255D35640031EB28 /* MainNetworkHelper.m */; };
 		E56D7021255D35640031EB28 /* MainNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D701E255D35640031EB28 /* MainNetworkHelper.m */; };
 		E56D702B255D37E80031EB28 /* MainBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D702A255D37E80031EB28 /* MainBusinessHelper.m */; };
@@ -42,6 +46,8 @@
 		E587C703256FA7FF00E335E9 /* ImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E587C701256FA7FF00E335E9 /* ImagePickerManager.m */; };
 		E587C706256FB15D00E335E9 /* ImagePickerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E587C705256FB15D00E335E9 /* ImagePickerImpl.m */; };
 		E587C707256FB15D00E335E9 /* ImagePickerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E587C705256FB15D00E335E9 /* ImagePickerImpl.m */; };
+		E58F6FB92574C3D200A1C823 /* UIControl+Repeate.m in Sources */ = {isa = PBXBuildFile; fileRef = E58F6FB82574C3D200A1C823 /* UIControl+Repeate.m */; };
+		E58F6FBA2574C3D200A1C823 /* UIControl+Repeate.m in Sources */ = {isa = PBXBuildFile; fileRef = E58F6FB82574C3D200A1C823 /* UIControl+Repeate.m */; };
 		E5B6825F256E2C0B009DCFA9 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B6825E256E2C0B009DCFA9 /* VideoViewController.m */; };
 		E5B68260256E2C0B009DCFA9 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B6825E256E2C0B009DCFA9 /* VideoViewController.m */; };
 		E5B68263256E2DD9009DCFA9 /* VideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B68262256E2DD9009DCFA9 /* VideoProgressView.m */; };
@@ -147,6 +153,10 @@
 		E5368EB6256BC64A008AA512 /* NSTimer+timer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+timer.m"; sourceTree = "<group>"; };
 		E5368EBA256BC6A5008AA512 /* UIButton+button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+button.h"; sourceTree = "<group>"; };
 		E5368EBB256BC6A5008AA512 /* UIButton+button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+button.m"; sourceTree = "<group>"; };
+		E54A4AF82576561A00F35FA8 /* UserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		E54A4AF92576561A00F35FA8 /* UserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
+		E54A4AFC2576565F00F35FA8 /* UserDefaults+Extened.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UserDefaults+Extened.h"; sourceTree = "<group>"; };
+		E54A4AFD2576565F00F35FA8 /* UserDefaults+Extened.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UserDefaults+Extened.m"; sourceTree = "<group>"; };
 		E56D7017255D343F0031EB28 /* NetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkConfig.h; sourceTree = "<group>"; };
 		E56D701D255D35640031EB28 /* MainNetworkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainNetworkHelper.h; sourceTree = "<group>"; };
 		E56D701E255D35640031EB28 /* MainNetworkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainNetworkHelper.m; sourceTree = "<group>"; };
@@ -159,6 +169,8 @@
 		E587C701256FA7FF00E335E9 /* ImagePickerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerManager.m; sourceTree = "<group>"; };
 		E587C704256FB15D00E335E9 /* ImagePickerImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePickerImpl.h; sourceTree = "<group>"; };
 		E587C705256FB15D00E335E9 /* ImagePickerImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerImpl.m; sourceTree = "<group>"; };
+		E58F6FB72574C3D200A1C823 /* UIControl+Repeate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+Repeate.h"; sourceTree = "<group>"; };
+		E58F6FB82574C3D200A1C823 /* UIControl+Repeate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Repeate.m"; sourceTree = "<group>"; };
 		E5B6825D256E2C0B009DCFA9 /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		E5B6825E256E2C0B009DCFA9 /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		E5B68261256E2DD9009DCFA9 /* VideoProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoProgressView.h; sourceTree = "<group>"; };
@@ -221,6 +233,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E54A4AF7257655D100F35FA8 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				E54A4AF82576561A00F35FA8 /* UserDefaults.h */,
+				E54A4AF92576561A00F35FA8 /* UserDefaults.m */,
+				E54A4AFC2576565F00F35FA8 /* UserDefaults+Extened.h */,
+				E54A4AFD2576565F00F35FA8 /* UserDefaults+Extened.m */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
 		E56D7016255D34240031EB28 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +287,7 @@
 		E56D703A255D42E50031EB28 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E54A4AF7257655D100F35FA8 /* UserDefaults */,
 				E5368E49256BA434008AA512 /* NSArray+safeArray.h */,
 				E5368E4A256BA434008AA512 /* NSArray+safeArray.m */,
 				E5368E4E256BA496008AA512 /* NSObject+Additions.h */,
@@ -284,6 +308,8 @@
 				E5368EB6256BC64A008AA512 /* NSTimer+timer.m */,
 				E5368EBA256BC6A5008AA512 /* UIButton+button.h */,
 				E5368EBB256BC6A5008AA512 /* UIButton+button.m */,
+				E58F6FB72574C3D200A1C823 /* UIControl+Repeate.h */,
+				E58F6FB82574C3D200A1C823 /* UIControl+Repeate.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -619,10 +645,13 @@
 				E5368EBC256BC6A5008AA512 /* UIButton+button.m in Sources */,
 				E5C3136F25500E3300158205 /* UIStructHelper.m in Sources */,
 				E5C5909C25500C7C00774474 /* main.m in Sources */,
+				E58F6FB92574C3D200A1C823 /* UIControl+Repeate.m in Sources */,
+				E54A4AFA2576561A00F35FA8 /* UserDefaults.m in Sources */,
 				E5C3137225500E3300158205 /* TestViewController.m in Sources */,
 				E5368E64256BAB80008AA512 /* NSString+stringSafe.m in Sources */,
 				E587C702256FA7FF00E335E9 /* ImagePickerManager.m in Sources */,
 				E5368E55256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */,
+				E54A4AFE2576565F00F35FA8 /* UserDefaults+Extened.m in Sources */,
 				E5B6826B256E3A1A009DCFA9 /* VideoView.m in Sources */,
 				E5368E4B256BA434008AA512 /* NSArray+safeArray.m in Sources */,
 				E5368E8F256BBB92008AA512 /* Reachability.m in Sources */,
@@ -651,10 +680,13 @@
 				E5368EBE256BC6A5008AA512 /* UIButton+button.m in Sources */,
 				E5C3137125500E3300158205 /* UIStructHelper.m in Sources */,
 				E5C590B725500C8500774474 /* main.m in Sources */,
+				E58F6FBA2574C3D200A1C823 /* UIControl+Repeate.m in Sources */,
+				E54A4AFB2576561A00F35FA8 /* UserDefaults.m in Sources */,
 				E5C3137425500E3300158205 /* TestViewController.m in Sources */,
 				E5368E66256BAB80008AA512 /* NSString+stringSafe.m in Sources */,
 				E587C703256FA7FF00E335E9 /* ImagePickerManager.m in Sources */,
 				E5368E57256BA6B3008AA512 /* NSDictionary+safeDictionary.m in Sources */,
+				E54A4AFF2576565F00F35FA8 /* UserDefaults+Extened.m in Sources */,
 				E5B6826C256E3A1A009DCFA9 /* VideoView.m in Sources */,
 				E5368E4D256BA434008AA512 /* NSArray+safeArray.m in Sources */,
 				E5368E91256BBB92008AA512 /* Reachability.m in Sources */,

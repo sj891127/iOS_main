@@ -56,7 +56,6 @@ static char leftNameKey;
     CGFloat imageHeight = self.imageView.image.size.height;
     CGFloat labelWidth = self.titleLabel.intrinsicContentSize.width;
     CGFloat labelHeight = self.titleLabel.intrinsicContentSize.height;
-    
     UIEdgeInsets imageEdgeInsets = UIEdgeInsetsMake(-labelHeight-space/2.0, 0, 0, -labelWidth);
     UIEdgeInsets labelEdgeInsets = UIEdgeInsetsMake(0, -imageWith, -imageHeight-space/2.0, 0);
     self.titleEdgeInsets = labelEdgeInsets;
@@ -67,7 +66,6 @@ static char leftNameKey;
 - (void)horLayoutLeftTitleRightImageSpace:(CGFloat)space{
     CGFloat imageWith = self.imageView.image.size.width;
     CGFloat labelWidth = self.titleLabel.intrinsicContentSize.width;
-    
     UIEdgeInsets imageEdgeInsets = UIEdgeInsetsMake(0, labelWidth, 0, -labelWidth-space/2.0);
     UIEdgeInsets labelEdgeInsets = UIEdgeInsetsMake(0, -imageWith-space/2.0 ,0, imageWith);
     self.titleEdgeInsets = labelEdgeInsets;

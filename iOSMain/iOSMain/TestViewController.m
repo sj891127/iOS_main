@@ -120,6 +120,10 @@
     [self.navigationController setNavigationBarHidden:YES animated:NO];
 }
 
+- (void)imageDidSelected:(NSString *)imageUrl{
+    
+}
+
 - (NSString *)tabTitle {
     return @"test";
 }
