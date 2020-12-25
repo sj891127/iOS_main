@@ -34,10 +34,8 @@
         [testBtn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:testBtn];
     }
-    NSLog(@"========");
 }
 
-///test
 - (NSString *)getBtnTitle :(NSInteger)tag{
     switch (tag) {
         case 0:
