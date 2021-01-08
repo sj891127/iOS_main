@@ -23,5 +23,6 @@
 #import "UIControl+Repeate.h"
 #import "UserDefaults.h"
 #import "UserDefaults+Extened.h"
+#import "NSObject+EasyKVO.h"
 
 #endif /* iOSMainPrefixHeader_pch */

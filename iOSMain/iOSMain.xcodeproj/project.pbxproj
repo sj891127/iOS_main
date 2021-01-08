@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5288E2925A2E90400E98A6B /* NSObject+EasyKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = E5288E2825A2E90400E98A6B /* NSObject+EasyKVO.m */; };
+		E5288E2A25A2E90400E98A6B /* NSObject+EasyKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = E5288E2825A2E90400E98A6B /* NSObject+EasyKVO.m */; };
 		E5304619255028E60079CF41 /* Pods_iOSMain_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15092ABA8BA584CBD523E7BD /* Pods_iOSMain_dev.framework */; };
 		E530461C255028F80079CF41 /* iOSBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C313C82550114200158205 /* iOSBasic.framework */; };
 		E530461D255028F80079CF41 /* iOSBasic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5C313C82550114200158205 /* iOSBasic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -130,6 +132,8 @@
 		683CC3CC4B4F35CD78BD9794 /* Pods-iOSMain_release.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMain_release.debug.xcconfig"; path = "Target Support Files/Pods-iOSMain_release/Pods-iOSMain_release.debug.xcconfig"; sourceTree = "<group>"; };
 		80FD67552E244AF29CCC1417 /* Pods-iOSMain_pre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMain_pre.debug.xcconfig"; path = "Target Support Files/Pods-iOSMain_pre/Pods-iOSMain_pre.debug.xcconfig"; sourceTree = "<group>"; };
 		92E86281742690ED0AFCF58D /* Pods-iOSMain_dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMain_dev.debug.xcconfig"; path = "Target Support Files/Pods-iOSMain_dev/Pods-iOSMain_dev.debug.xcconfig"; sourceTree = "<group>"; };
+		E5288E2725A2E90400E98A6B /* NSObject+EasyKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+EasyKVO.h"; sourceTree = "<group>"; };
+		E5288E2825A2E90400E98A6B /* NSObject+EasyKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EasyKVO.m"; sourceTree = "<group>"; };
 		E5368E49256BA434008AA512 /* NSArray+safeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+safeArray.h"; sourceTree = "<group>"; };
 		E5368E4A256BA434008AA512 /* NSArray+safeArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+safeArray.m"; sourceTree = "<group>"; };
 		E5368E4E256BA496008AA512 /* NSObject+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
@@ -310,6 +314,8 @@
 				E5368EBB256BC6A5008AA512 /* UIButton+button.m */,
 				E58F6FB72574C3D200A1C823 /* UIControl+Repeate.h */,
 				E58F6FB82574C3D200A1C823 /* UIControl+Repeate.m */,
+				E5288E2725A2E90400E98A6B /* NSObject+EasyKVO.h */,
+				E5288E2825A2E90400E98A6B /* NSObject+EasyKVO.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -630,6 +636,7 @@
 				E5B68263256E2DD9009DCFA9 /* VideoProgressView.m in Sources */,
 				E56D702B255D37E80031EB28 /* MainBusinessHelper.m in Sources */,
 				E5368E5A256BAA95008AA512 /* NSNull+nullSafe.m in Sources */,
+				E5288E2925A2E90400E98A6B /* NSObject+EasyKVO.m in Sources */,
 				E5368EB7256BC64A008AA512 /* NSTimer+timer.m in Sources */,
 				E5368E5F256BAB1B008AA512 /* NSSet+setSafe.m in Sources */,
 				E587C706256FB15D00E335E9 /* ImagePickerImpl.m in Sources */,
@@ -665,6 +672,7 @@
 				E5B68264256E2DD9009DCFA9 /* VideoProgressView.m in Sources */,
 				E56D702D255D37E80031EB28 /* MainBusinessHelper.m in Sources */,
 				E5368E5C256BAA95008AA512 /* NSNull+nullSafe.m in Sources */,
+				E5288E2A25A2E90400E98A6B /* NSObject+EasyKVO.m in Sources */,
 				E5368EB9256BC64A008AA512 /* NSTimer+timer.m in Sources */,
 				E5368E61256BAB1B008AA512 /* NSSet+setSafe.m in Sources */,
 				E587C707256FB15D00E335E9 /* ImagePickerImpl.m in Sources */,

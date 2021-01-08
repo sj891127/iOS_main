@@ -11,6 +11,7 @@
 
 @interface TestViewController ()<ImagePickerDelegate>
 @property (nonatomic, strong) ImagePickerImpl  *impl;
+@property (nonatomic, copy) NSString *text;
 @end
 
 @implementation TestViewController
@@ -23,9 +24,10 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     NSLog(@"viewDidLoad");
+    self.text = @"abc";
     self.impl = [[ImagePickerImpl alloc] init];
     self.impl.delegate = self;
-    for (int i = 0; i<4; i++) {
+    for (int i = 0; i<5; i++) {
         UIButton *testBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [testBtn setTitle:[self getBtnTitle:i] forState:UIControlStateNormal];
         [testBtn setFrame:CGRectMake(0, i*100 + i, SCREEN_WIDTH, 100)];
@@ -34,6 +36,9 @@
         [testBtn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:testBtn];
     }
+    [self observeProperty:@"text" changedBlock:^(id newValue, id oldValue) {
+        NSLog(@" > text : 旧值 %@, 新值 %@", oldValue, newValue);
+    }];
 }
 
 - (NSString *)getBtnTitle :(NSInteger)tag{
@@ -49,6 +54,9 @@
             break;
         case 3:
             return @"openPhotoLibrary";
+            break;
+        case 4:
+            return @"easyKVO";
             break;
         default:
             return @"";
@@ -69,6 +77,8 @@
             break;
         case 3:
             [self openPhotoLibrary];
+        case 4:
+            [self easyKVOClick];
             break;
     }
 }
@@ -112,6 +122,10 @@
 - (void)openPhotoLibrary{
     TZImagePickerController *controller = [ImagePickerManager showPhotoLibrary:self.impl maxImagesCount:1 videoEnable:NO gifEnable:NO completion:nil];
     NSLog(@"vc====%@",controller);
+}
+
+- (void)easyKVOClick{
+    self.text = @"123";
 }
 
 - (void)viewWillAppear:(BOOL)animated{
